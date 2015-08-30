@@ -1,0 +1,5 @@
+@import "bourbon/bourbon";
+@include font-face("SegoeUIRegular", "../fonts/SegoeUIRegular/SegoeUIRegular", normal, $file-formats: eot woff ttf);
+@include font-face("SegoeUIRegular", "../fonts/SegoeUIBold/SegoeUIBold", 700, $file-formats: eot woff ttf);
+@include font-face("SegoeUIRegular", "../fonts/SegoeUILight/SegoeUILight", 300, $file-formats: eot woff ttf);
+@include font-face("SegoeUIRegular", "../fonts/SegoeUISemiBold/SegoeUISemiBold", 600, $file-formats: eot woff ttf);
