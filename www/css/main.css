@@ -400,10 +400,10 @@ header .header-navbar {
 .tottal-wrapper {
   background-image: url("../../img/bg-contact.png");
   background-repeat: no-repeat;
-  background-position: left bottom; }
+  background-position: left 106%; }
 
 .contact-container {
-  margin-bottom: 30px; }
+  padding-bottom: 30px; }
   .contact-container .maps-first {
     text-align: right; }
   .contact-container .for-print {
@@ -933,5 +933,19 @@ footer {
             border: 1px solid #fff;
             top: 16px;
             left: 2px; }
+
+.extruder.left {
+  border-right: none;
+  padding-left: 0; }
+  .extruder.left .flap {
+    width: auto !important;
+    margin-right: -27px !important;
+    padding-left: 0 !important; }
+  .extruder.left .text {
+    text-shadow: none;
+    width: auto !important;
+    background-color: #fff; }
+  .extruder.left .extruder-content {
+    overflow: auto !important; }
 
 /*# sourceMappingURL=main.css.map */

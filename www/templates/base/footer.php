@@ -71,6 +71,9 @@
 		<script src="libs/bootstrap/bootstrap.min.js"></script>
 		<script src="libs/datepicker/demo.js"></script>
 		<script src="libs/datepicker/jquery.pickmeup.js"></script>
+		<script src="libs/sidebarleft/jquery.mb.flipText.js"></script>
+		<script src="libs/sidebarleft/jquery.hoverIntent.min.js"></script>
+		<script src="libs/sidebarleft/mbExtruder.js"></script>
 		<script src="js/common.js"></script>
 		<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
 		<!-- Google Analytics counter --><!-- /Google Analytics counter -->

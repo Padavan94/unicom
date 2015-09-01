@@ -42,7 +42,9 @@
       cursor: default; }
     .pickmeup .pmu-instance .pmu-selected {
       background: #eef1f5;
-      color: #4d5155; }
+      color: #1b5fa4;
+      border: 1px solid #1b5fa4;
+    }
     .pickmeup .pmu-instance .pmu-not-in-month.pmu-selected {
       background: #17384d; }
     .pickmeup .pmu-instance nav {

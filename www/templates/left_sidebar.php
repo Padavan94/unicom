@@ -1,4 +1,4 @@
-<div class="col-md-3 col-sm-3 left-sidebar hidden-xs">
+<div id="leftmenu" class="col-md-3 col-sm-3 left-sidebar {title:'Меню'}">
 	<div class="sidebar-head">
 		<h3>Авиаперевозки</h3>
 	</div>
@@ -21,6 +21,26 @@
 			<span>Акции</span>
 		</div>
 		<div class="container-fluid">
+			<div class="stock-text">
+				<span class="date">26.03.14</span>
+				<p>Проснувшись однажды утром после беспокойного сна, Грегор Замза обнаружил,он. Это не  .... <a href="#">подробнее ></a></p>
+			</div>
+			<div class="stock-text">
+				<span class="date">26.03.14</span>
+				<p>Проснувшись однажды утром после беспокойного сна, Грегор Замза обнаружил,он. Это не  .... <a href="#">подробнее ></a></p>
+			</div>
+			<div class="stock-text">
+				<span class="date">26.03.14</span>
+				<p>Проснувшись однажды утром после беспокойного сна, Грегор Замза обнаружил,он. Это не  .... <a href="#">подробнее ></a></p>
+			</div>
+			<div class="stock-text">
+				<span class="date">26.03.14</span>
+				<p>Проснувшись однажды утром после беспокойного сна, Грегор Замза обнаружил,он. Это не  .... <a href="#">подробнее ></a></p>
+			</div>
+			<div class="stock-text">
+				<span class="date">26.03.14</span>
+				<p>Проснувшись однажды утром после беспокойного сна, Грегор Замза обнаружил,он. Это не  .... <a href="#">подробнее ></a></p>
+			</div>
 			<div class="stock-text">
 				<span class="date">26.03.14</span>
 				<p>Проснувшись однажды утром после беспокойного сна, Грегор Замза обнаружил,он. Это не  .... <a href="#">подробнее ></a></p>

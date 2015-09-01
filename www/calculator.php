@@ -45,8 +45,8 @@
 					</div>
 					<div class="chek-input">
 						Забор груза
-						<input type="checkbox" >Да
-						<input type="checkbox" checked>Нет
+						<input class="my-check"  type="checkbox" name="group2">Да
+						<input class="my-check" type="checkbox" name="group2"checked>Нет
 					</div>
 					<section>
 						<article>
@@ -75,8 +75,8 @@
 					</div>
 					<div class="chek-input">
 						Доставка до двери
-						<input type="checkbox" checked>Да
-						<input type="checkbox" >Нет
+						<input class="my-check" type="checkbox" name="group1"checked>Да
+						<input class="my-check" type="checkbox" name="group1">Нет
 					</div>
 					<div class="text-input">
 						<input type="text" placeholder="Улица">
@@ -182,9 +182,9 @@
 				<div class="col-md-6 col-sm-6 chech-area">
 					<span class="bag">Ответственный за оплату груза</span>
 					<div class="chek-input check-area">
-						<input type="checkbox" checked> Совпадает с отправителем<br>
-						<input type="checkbox" checked> Совпадает с получателем<br>
-						<input type="checkbox" checked> Совпадает с ответственным за отправку<br>
+						<input class="my-check" type="checkbox" name="group3"checked> Совпадает с отправителем<br>
+						<input class="my-check" type="checkbox" name="group3"> Совпадает с получателем<br>
+						<input class="my-check" type="checkbox" name="group3"> Совпадает с ответственным за отправку<br>
 					</div>
 					<div class="text-input">
 						<input type="text" placeholder="ФИО">
@@ -217,7 +217,7 @@
 						<textarea name="" id=""></textarea>
 					</div>
 					<div class="submit-input">
-						<input type="sumbmit" value="ПОДТВЕРДИТЬ"/>
+						<input type="submit" value="ПОДТВЕРДИТЬ"/>
 					</div>
 				</div>
 			</div>

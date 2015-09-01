@@ -509,10 +509,10 @@ header{
 .tottal-wrapper{
 	background-image: url("../../img/bg-contact.png");
 	background-repeat: no-repeat;
-	background-position: left bottom;
+	background-position: left 106%;
 }
 .contact-container{
-	margin-bottom: 30px;
+	padding-bottom: 30px;
 	.maps-first{
 		text-align: right;
 	}
@@ -1142,3 +1142,23 @@ footer{
 		}
 	}
 }
+//styles for left sidebar
+.extruder.left{
+	border-right: none;
+	padding-left: 0;
+	.flap{
+		width: auto !important;
+		//margin-right: -11px !important;
+		margin-right: -27px !important;
+		padding-left: 0 !important;
+	}
+	.text{
+		text-shadow: none;
+		width: auto !important;
+		background-color: #fff;
+	}
+	.extruder-content {
+		overflow: auto !important;
+	}
+}
+	

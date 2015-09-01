@@ -12,6 +12,7 @@
 	<link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" href="libs/datepicker/pickmeup.css">
 	<link rel="stylesheet" href="libs/datepicker/demo.css">
+	<link rel="stylesheet" href="libs/sidebarleft/mbExtruder.css">
 	<link rel="stylesheet" href="css/media.css" />
 	<script type="text/javascript" charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=dN90RRbvB0fAcSrEkS-npwxvCXlOvO9i&id=first-map"></script>
 	<script type="text/javascript" charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=DV271uPA2yuJfm9_Bd0_8xdXz0Z28tRt&id=third-map"></script>

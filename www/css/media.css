@@ -22,6 +22,7 @@
 	.auto-container .right-car-transp,.plain-container .right-plain-transp,.container-transportation .right-container-transp {margin-left: 0;}
 	.auto-container .right-car-transp .main-img-cols .col-box, .plain-container .right-plain-transp .main-img-cols .col-box{padding-top: 10px;}
 	.container-transportation .right-container-transp .main-img-cols .col-box{padding-top: 12px;}
+	.calculator-container .right-calculator .calc-form .chek-input input{margin-left: 23px;}
 }
 
 /* Medium Devices, Desktops */
