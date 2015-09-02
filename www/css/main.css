@@ -238,6 +238,8 @@ header .header-navbar {
       color: #fff; }
   .slider-main-wrapper img {
     margin-top: 147px; }
+  .slider-main-wrapper .owl-item:last-child img {
+    margin-top: 70px; }
   .slider-main-wrapper .slider-conrols {
     height: auto;
     border-top: 3px solid #d2d2d2; }
@@ -266,6 +268,7 @@ header .header-navbar {
       width: 70px;
       height: 70px;
       border-radius: 50%;
+      cursor: pointer;
       background-color: #ec6f2b;
       background-image: -webkit-linear-gradient(bottom right, #ec6f2b 50%, #fb8a4c 50%);
       background-image: linear-gradient(to top left,#ec6f2b 50%, #fb8a4c 50%);
@@ -319,6 +322,10 @@ header .header-navbar {
         top: 75px;
         opacity: .7;
         left: -8px; }
+    .slider-main-wrapper .inner-controls .active {
+      background-color: #fb8a4c;
+      background-image: -webkit-linear-gradient(bottom right, #fb8a4c 50%, #ec6f2b 50%);
+      background-image: linear-gradient(to top left,#fb8a4c 50%, #ec6f2b 50%); }
 
 .left-row {
   background-image: url("../../img/map.png");
@@ -531,11 +538,8 @@ header .header-navbar {
     padding-right: 0; }
     .calculator-container .left-sidebar a, .auto-container .left-sidebar a, .plain-container .left-sidebar a, .container-transportation .left-sidebar a, .refrej-transportation .left-sidebar a, .news-container .left-sidebar a {
       color: #0a112c; }
-<<<<<<< HEAD
-=======
       .calculator-container .left-sidebar a:hover, .auto-container .left-sidebar a:hover, .plain-container .left-sidebar a:hover, .container-transportation .left-sidebar a:hover, .refrej-transportation .left-sidebar a:hover, .news-container .left-sidebar a:hover {
         text-decoration: underline; }
->>>>>>> 828ef1cfc536242643b1611f8624fc31b2b1f040
     .calculator-container .left-sidebar .sidebar-head, .auto-container .left-sidebar .sidebar-head, .plain-container .left-sidebar .sidebar-head, .container-transportation .left-sidebar .sidebar-head, .refrej-transportation .left-sidebar .sidebar-head, .news-container .left-sidebar .sidebar-head {
       height: 43px;
       background-color: #eaeaea;
@@ -590,11 +594,8 @@ header .header-navbar {
       padding: 7px 0 14px 0; }
       .calculator-container .left-sidebar .stock-box .stock-text p, .auto-container .left-sidebar .stock-box .stock-text p, .plain-container .left-sidebar .stock-box .stock-text p, .container-transportation .left-sidebar .stock-box .stock-text p, .refrej-transportation .left-sidebar .stock-box .stock-text p, .news-container .left-sidebar .stock-box .stock-text p {
         text-indent: 0; }
-<<<<<<< HEAD
-=======
       .calculator-container .left-sidebar .stock-box .stock-text a, .auto-container .left-sidebar .stock-box .stock-text a, .plain-container .left-sidebar .stock-box .stock-text a, .container-transportation .left-sidebar .stock-box .stock-text a, .refrej-transportation .left-sidebar .stock-box .stock-text a, .news-container .left-sidebar .stock-box .stock-text a {
         color: #024f9c; }
->>>>>>> 828ef1cfc536242643b1611f8624fc31b2b1f040
       .calculator-container .left-sidebar .stock-box .stock-text .date, .auto-container .left-sidebar .stock-box .stock-text .date, .plain-container .left-sidebar .stock-box .stock-text .date, .container-transportation .left-sidebar .stock-box .stock-text .date, .refrej-transportation .left-sidebar .stock-box .stock-text .date, .news-container .left-sidebar .stock-box .stock-text .date {
         display: block;
         padding-left: 15px;

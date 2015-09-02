@@ -324,6 +324,11 @@ header{
 	img{
 		margin-top: 147px;
 	}
+	.owl-item:last-child{
+		img{
+			margin-top: 70px;
+		}
+	}
 	.slider-conrols{
 		height: auto;
 		border-top: 3px solid #d2d2d2;
@@ -355,6 +360,7 @@ header{
 			width: 70px;
 			height: 70px;
 			border-radius: 50%;
+			cursor: pointer;
 			@include linear-gradient(to top left, #ec6f2b 50%, #fb8a4c 50%);
 			//background: linear-gradient(to top left, #ec6f2b 50%, #fb8a4c 50%);
 			border: 1px solid #d7d7d7;
@@ -408,6 +414,9 @@ header{
 			    opacity: .7;
 			    left: -8px;
 			}
+		}
+		.active{
+			@include linear-gradient(to top left, #fb8a4c 50%, #ec6f2b 50%);
 		}
 	}
 }
@@ -623,12 +632,9 @@ header{
 		padding-right: 0;
 		a{
 			color: #0a112c;
-<<<<<<< HEAD
-=======
 			&:hover{
 				text-decoration: underline;
 			}
->>>>>>> 828ef1cfc536242643b1611f8624fc31b2b1f040
 		}
 		.sidebar-head{
 			height: 43px;
@@ -699,12 +705,9 @@ header{
 				padding: 7px 0 14px 0;
 				p{
 					text-indent: 0;
-<<<<<<< HEAD
-=======
 				}
 				a{
 					color: $text_color_blue;
->>>>>>> 828ef1cfc536242643b1611f8624fc31b2b1f040
 				}	
 				.date{
 					display: block;
