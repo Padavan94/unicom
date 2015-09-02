@@ -54,7 +54,7 @@
 	.auto-container .right-car-transp .main-img-cols .col-box,.plain-container .right-plain-transp .main-img-cols .col-box {padding-top: 20px;}
 	.calculator-container .right-calculator .calc-form .check-container .right-side{float: none;}
 	.calculator-container .right-calculator .calc-form .check-container .right-side .squaredFour:last-child{margin-left: 5px;}
-
+	.contact-container #first-map{margin-top: 20px;}
 }
  
 /* Small Devices, Tablets */
@@ -87,7 +87,7 @@
 		background: linear-gradient(to right, #024f9c 0%,#015db9 50%,#024f9c 100%);
 	}
 	header .header-navbar .navbar-box ul li {text-align: center;width: 50%;border: none;}
-	header .header-navbar .navbar-box ul {width: 100%; line-height: 62px;}
+	header .header-navbar .navbar-box ul {width: 100%; line-height: 38px; margin-bottom: 10px;}
 	header .header-navbar .navbar-box ul li:last-child:after,header .header-navbar .navbar-box ul li:first-child:after {display:none;}{display:none;}
 	header .header-navbar input[type="search"] {width: 240px; margin: 10px auto; display: block;}
 	.slider-main-wrapper h2 {font-size: 30px;}
@@ -112,10 +112,11 @@
 	.main-head-content {background-image: url("../img/shadow-head.png");background-position: center 302px;background-repeat: no-repeat;}
 	header .center-col .center-col-row-2 {background-image: none;}
 	.pickmeup .pmu-instance .pmu-day-of-week *, .pickmeup .pmu-instance .pmu-days * {font-size: 18px;}
+	header .navbar-collapse.in {padding-left: 0; padding-right: 0;}
 }
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-	header .header-navbar .navbar-box ul li {width: 100%;}
+
 	header .header-navbar input[type="search"] {display: block;}
 	header .center-col .center-col-row-2 .col-sm-3:first-child,
 	header .center-col .center-col-row-2 .third-col2,

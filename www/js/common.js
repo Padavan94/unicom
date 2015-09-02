@@ -11,6 +11,8 @@ $(document).ready(function() {
         onExtContentLoad:function(){},
         onExtClose:function(){}
     });
+		$(".contact-info").insertBefore(".maps-first");
+		$(".contact-info2").insertBefore(".my-form");
 	}
 	$("#owl-my").owlCarousel({
 	    slideSpeed : 1000,

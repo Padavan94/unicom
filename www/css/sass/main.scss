@@ -324,7 +324,7 @@ header{
 	img{
 		margin-top: 147px;
 	}
-	.owl-item:last-child{
+	.owl-item:nth-child(3){
 		img{
 			margin-top: 70px;
 		}
@@ -529,12 +529,16 @@ header{
 		display: inline-block;
 		list-style-image: url("../../img/print-mark.png");
 		margin-top: 7px;
+		text-align: right;
 		a{
 			color: $text_color_blue;
 			text-decoration: underline;
 		}
+		li{
+		    padding-left: 0px;
+		}
 	}
-	.contact-info{
+	.contact-info,.contact-info2{
 		h1,h2{
 			font-size: 24px;
 			color: $text_color_blue;
@@ -708,10 +712,6 @@ header{
 				}
 				a{
 					color: $text_color_blue;
-<<<<<<< HEAD
-=======
-
->>>>>>> cbf0e24ee9c9a5255a9a0a2a96f14363fd96fa04
 				}	
 				.date{
 					display: block;

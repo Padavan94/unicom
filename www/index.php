@@ -4,6 +4,19 @@
 			<div class="container slide">
 				<div class="row">
 					<div class="col-md-6">
+						<h2>авиаперевозки</h2>
+						<p>Является основным видом деятельности нашей компании. Для воздушного транспорта характерны высокие скорости движения, что обеспечивает максимально возможное сокращение времени доставки грузов. </p>
+						<div class="more"><a href="#">Подробнее</a></div>
+						<div class="calc"><a href="#">Расчитать</a></div>
+					</div>
+					<div class="col-md-6 transport-type">
+						<img src="img/fly-big.png" alt="fly">
+					</div>
+				</div>
+			</div>
+			<div class="container slide">
+				<div class="row">
+					<div class="col-md-6">
 						<h2>Ж/Д перевозки</h2>
 						<p><span>Перевозка Ж/Д грузовым вагоном</span>, одна из самых надежных и экономичных видов перевозки. Отправить груз по железной дороге можно в сборном вагоне от 30 кг . Группа компаний ЮТК предоставляет  такую возможность нашим клиентам.</p>
 						<div class="more"><a href="#">Подробнее</a></div>
@@ -11,6 +24,19 @@
 					</div>
 					<div class="col-md-6 transport-type">
 						<img src="img/train.png" alt="train">
+					</div>
+				</div>
+			</div>
+			<div class="container slide">
+				<div class="row">
+					<div class="col-md-6">
+						<h2>автоперевозки</h2>
+						<p>Одним из наиболее экономичных и при этом необыкновенно удобных способов транспортировки железнодорожных грузов являются контейнерные перевозки. Они необыкновенно актуальны для тех случаев, когда необходимо доставить малые объемы грузов, однако это не единственное их преимущество.</p>
+						<div class="more"><a href="#">Подробнее</a></div>
+						<div class="calc"><a href="#">Расчитать</a></div>
+					</div>
+					<div class="col-md-6 transport-type">
+						<img src="img/auto.png" alt="container">
 					</div>
 				</div>
 			</div>
@@ -37,32 +63,6 @@
 					</div>
 					<div class="col-md-6 transport-type">
 						<img src="img/refrej-big.png" alt="refrej">
-					</div>
-				</div>
-			</div>
-			<div class="container slide">
-				<div class="row">
-					<div class="col-md-6">
-						<h2>авиаперевозки</h2>
-						<p>Является основным видом деятельности нашей компании. Для воздушного транспорта характерны высокие скорости движения, что обеспечивает максимально возможное сокращение времени доставки грузов. </p>
-						<div class="more"><a href="#">Подробнее</a></div>
-						<div class="calc"><a href="#">Расчитать</a></div>
-					</div>
-					<div class="col-md-6 transport-type">
-						<img src="img/fly-big.png" alt="fly">
-					</div>
-				</div>
-			</div>
-			<div class="container slide">
-				<div class="row">
-					<div class="col-md-6">
-						<h2>автоперевозки</h2>
-						<p>Одним из наиболее экономичных и при этом необыкновенно удобных способов транспортировки железнодорожных грузов являются контейнерные перевозки. Они необыкновенно актуальны для тех случаев, когда необходимо доставить малые объемы грузов, однако это не единственное их преимущество.</p>
-						<div class="more"><a href="#">Подробнее</a></div>
-						<div class="calc"><a href="#">Расчитать</a></div>
-					</div>
-					<div class="col-md-6 transport-type">
-						<img src="img/auto.png" alt="container">
 					</div>
 				</div>
 			</div>
