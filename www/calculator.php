@@ -43,10 +43,22 @@
 					<div class="text-input">
 						<input type="text" placeholder="Дом">
 					</div>
-					<div class="chek-input">
-						Забор груза
-						<input class="my-check"  type="checkbox" name="group2">Да
-						<input class="my-check" type="checkbox" name="group2"checked>Нет
+					<div class="check-container">
+						<div class="left-side">
+							Забор груза
+						</div>
+						<div class="right-side">
+							<div class="squaredFour">
+								<input class="my-check" type="checkbox" value="None" id="squaredFour" name="check" checked/>
+								<label for="squaredFour"></label>
+							</div>
+							Да
+							<div class="squaredFour">
+								<input class="my-check" type="checkbox" value="None" id="squaredFour2" name="check" />
+								<label for="squaredFour2"></label>
+							</div>
+							Нет
+						</div>
 					</div>
 					<section>
 						<article>
@@ -73,10 +85,22 @@
 							<option>Город</option>
 						</select>
 					</div>
-					<div class="chek-input">
-						Доставка до двери
-						<input class="my-check" type="checkbox" name="group1"checked>Да
-						<input class="my-check" type="checkbox" name="group1">Нет
+					<div class="check-container">
+						<div class="left-side">
+							Доставка до двери
+						</div>
+						<div class="right-side">
+							<div class="squaredFour">
+								<input class="my-check" type="checkbox" value="None" id="squaredFour3" name="check1" checked/>
+								<label for="squaredFour3"></label>
+							</div>
+							Да
+							<div class="squaredFour">
+								<input class="my-check" type="checkbox" value="None" id="squaredFour4" name="check1" />
+								<label for="squaredFour4"></label>
+							</div>
+							Нет
+						</div>
 					</div>
 					<div class="text-input">
 						<input type="text" placeholder="Улица">
@@ -182,9 +206,27 @@
 				<div class="col-md-6 col-sm-6 chech-area">
 					<span class="bag">Ответственный за оплату груза</span>
 					<div class="chek-input check-area">
-						<input class="my-check" type="checkbox" name="group3"checked> Совпадает с отправителем<br>
-						<input class="my-check" type="checkbox" name="group3"> Совпадает с получателем<br>
-						<input class="my-check" type="checkbox" name="group3"> Совпадает с ответственным за отправку<br>
+						<div class="check-wrap">
+							<div class="squaredFour">
+								<input class="my-check" type="checkbox" value="None" id="squaredFour5" name="check" checked/>
+								<label for="squaredFour5"></label>
+							</div>
+							Совпадает с отправителем
+						</div>
+						<div class="check-wrap">
+							<div class="squaredFour">
+								<input class="my-check" type="checkbox" value="None" id="squaredFour6" name="check" />
+								<label for="squaredFour6"></label>
+							</div>
+							Совпадает с получателем
+						</div>
+						<div class="check-wrap">
+							<div class="squaredFour">
+								<input class="my-check" type="checkbox" value="None" id="squaredFour7" name="check" />
+								<label for="squaredFour7"></label>
+							</div>
+							Совпадает с ответственным за отправку
+						</div>
 					</div>
 					<div class="text-input">
 						<input type="text" placeholder="ФИО">

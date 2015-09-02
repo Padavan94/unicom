@@ -52,7 +52,8 @@
 	.pickmeup .pmu-instance .pmu-day-of-week {padding-left: 7px;}
 	.auto-container .left-sidebar,.plain-container .left-sidebar, .container-transportation .left-sidebar,.refrej-transportation .left-sidebar {width: 25%;}
 	.auto-container .right-car-transp .main-img-cols .col-box,.plain-container .right-plain-transp .main-img-cols .col-box {padding-top: 20px;}
-	
+	.calculator-container .right-calculator .calc-form .check-container .right-side{float: none;}
+	.calculator-container .right-calculator .calc-form .check-container .right-side .squaredFour:last-child{margin-left: 5px;}
 
 }
  
@@ -110,7 +111,8 @@
 	.refrej-transportation .right-refrej-transp{padding-bottom: 10px;}
 	.main-head-content {background-image: url("../img/shadow-head.png");background-position: center 302px;background-repeat: no-repeat;}
 	header .center-col .center-col-row-2 {background-image: none;}
-
+	.pickmeup .pmu-instance .pmu-day-of-week *, .pickmeup .pmu-instance .pmu-days * {font-size: 18px;}
+}
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
 	header .header-navbar .navbar-box ul li {width: 100%;}

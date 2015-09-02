@@ -623,12 +623,9 @@ header{
 		padding-right: 0;
 		a{
 			color: #0a112c;
-<<<<<<< HEAD
-=======
 			&:hover{
 				text-decoration: underline;
 			}
->>>>>>> 828ef1cfc536242643b1611f8624fc31b2b1f040
 		}
 		.sidebar-head{
 			height: 43px;
@@ -699,12 +696,10 @@ header{
 				padding: 7px 0 14px 0;
 				p{
 					text-indent: 0;
-<<<<<<< HEAD
-=======
 				}
 				a{
 					color: $text_color_blue;
->>>>>>> 828ef1cfc536242643b1611f8624fc31b2b1f040
+
 				}	
 				.date{
 					display: block;
@@ -756,8 +751,19 @@ header{
 				}
 			}
 			.check-area{
-				input{
-					margin: 5px 4px 6px 0;
+				.check-wrap{
+					margin-bottom: 13px;
+				}
+				.squaredFour{
+					top: 2px;
+					margin-right: 10px;
+					.my-check{
+						margin: 0;
+					}
+				}
+				label{
+					top: 0;
+					left: 0;
 				}
 			}
 			input{
@@ -868,6 +874,22 @@ header{
 				display: inline-block;
 			    margin-top: 34px;
 			    margin-bottom: 21px;
+			}
+			.check-container{
+				margin-bottom: 14px;
+				@include clearfix;
+				.left-side,.right-side{
+					float: left;
+				}
+				.right-side{
+					float: right;
+					.squaredFour{
+						margin-right: 10px;
+						&:last-child{
+							margin-left: 35px;
+						}
+					}
+				}
 			}
 		}
 	}
