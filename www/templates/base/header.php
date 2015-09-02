@@ -8,13 +8,17 @@
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/fonts.css" />
 	<link rel="stylesheet" href="libs/bootstrap/bootstrap.min.css">
-	<link rel="stylesheet" href="css/main.css" />
 	<link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" href="libs/datepicker/pickmeup.css">
 	<link rel="stylesheet" href="libs/datepicker/demo.css">
 	<link rel="stylesheet" href="libs/sidebarleft/mbExtruder.css">
+<<<<<<< HEAD
 	<link rel="stylesheet" href="libs/owl-carousel/owl.carousel.css">
 	<link rel="stylesheet" href="libs/owl-carousel/owl.theme.css">
+=======
+	<link rel="stylesheet" href="css/checkbox-upg.css">
+	<link rel="stylesheet" href="css/main.css" />
+>>>>>>> cbf0e24ee9c9a5255a9a0a2a96f14363fd96fa04
 	<link rel="stylesheet" href="css/media.css" />
 	<script type="text/javascript" charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=dN90RRbvB0fAcSrEkS-npwxvCXlOvO9i&id=first-map"></script>
 	<script type="text/javascript" charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=DV271uPA2yuJfm9_Bd0_8xdXz0Z28tRt&id=third-map"></script>

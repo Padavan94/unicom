@@ -708,6 +708,10 @@ header{
 				}
 				a{
 					color: $text_color_blue;
+<<<<<<< HEAD
+=======
+
+>>>>>>> cbf0e24ee9c9a5255a9a0a2a96f14363fd96fa04
 				}	
 				.date{
 					display: block;
@@ -759,8 +763,19 @@ header{
 				}
 			}
 			.check-area{
-				input{
-					margin: 5px 4px 6px 0;
+				.check-wrap{
+					margin-bottom: 13px;
+				}
+				.squaredFour{
+					top: 2px;
+					margin-right: 10px;
+					.my-check{
+						margin: 0;
+					}
+				}
+				label{
+					top: 0;
+					left: 0;
 				}
 			}
 			input{
@@ -871,6 +886,22 @@ header{
 				display: inline-block;
 			    margin-top: 34px;
 			    margin-bottom: 21px;
+			}
+			.check-container{
+				margin-bottom: 14px;
+				@include clearfix;
+				.left-side,.right-side{
+					float: left;
+				}
+				.right-side{
+					float: right;
+					.squaredFour{
+						margin-right: 10px;
+						&:last-child{
+							margin-left: 35px;
+						}
+					}
+				}
 			}
 		}
 	}
