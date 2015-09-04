@@ -28,7 +28,7 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-md-8 col-sm-8">
+			<div class="col-md-8 col-sm-8 my-form">
 				<div id="third-map">
 				</div>
 				<div class="contacts-form">
@@ -62,7 +62,7 @@
 					</form>
 				</div>
 			</div>
-			<div class="col-md-4 col-sm-4 contact-info">
+			<div class="col-md-4 col-sm-4 contact-info2">
 				<h2>Контактная информация</h2>
 				<span>196084, <strong>г.Санкт-Петербург,</strong> </span>
 				<span>ул. Кондратенко д.3</span>

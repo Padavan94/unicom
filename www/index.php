@@ -1,43 +1,97 @@
 ﻿<?php include ("templates/base/header.php") ?>
 	<div class="slider-main-wrapper clearfix;">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6">
-					<h2>Ж/Д перевозки</h2>
-					<p><span>Перевозка Ж/Д грузовым вагоном</span>, одна из самых надежных и экономичных видов перевозки. Отправить груз по железной дороге можно в сборном вагоне от 30 кг . Группа компаний ЮТК предоставляет  такую возможность нашим клиентам.</p>
-					<div class="more"><a href="#">Подробнее</a></div>
-					<div class="calc"><a href="#">Расчитать</a></div>
+		<div id="owl-my" class="owl-carousel container">
+			<div class="container slide">
+				<div class="row">
+					<div class="col-md-6">
+						<h2>авиаперевозки</h2>
+						<p>Является основным видом деятельности нашей компании. Для воздушного транспорта характерны высокие скорости движения, что обеспечивает максимально возможное сокращение времени доставки грузов. </p>
+						<div class="more"><a href="#">Подробнее</a></div>
+						<div class="calc"><a href="#">Расчитать</a></div>
+					</div>
+					<div class="col-md-6 transport-type">
+						<img src="img/fly-big.png" alt="fly">
+					</div>
 				</div>
-				<div class="col-md-6 transport-type">
-					<img src="img/train.png" alt="">
+			</div>
+			<div class="container slide">
+				<div class="row">
+					<div class="col-md-6">
+						<h2>Ж/Д перевозки</h2>
+						<p><span>Перевозка Ж/Д грузовым вагоном</span>, одна из самых надежных и экономичных видов перевозки. Отправить груз по железной дороге можно в сборном вагоне от 30 кг . Группа компаний ЮТК предоставляет  такую возможность нашим клиентам.</p>
+						<div class="more"><a href="#">Подробнее</a></div>
+						<div class="calc"><a href="#">Расчитать</a></div>
+					</div>
+					<div class="col-md-6 transport-type">
+						<img src="img/train.png" alt="train">
+					</div>
+				</div>
+			</div>
+			<div class="container slide">
+				<div class="row">
+					<div class="col-md-6">
+						<h2>автоперевозки</h2>
+						<p>Одним из наиболее экономичных и при этом необыкновенно удобных способов транспортировки железнодорожных грузов являются контейнерные перевозки. Они необыкновенно актуальны для тех случаев, когда необходимо доставить малые объемы грузов, однако это не единственное их преимущество.</p>
+						<div class="more"><a href="#">Подробнее</a></div>
+						<div class="calc"><a href="#">Расчитать</a></div>
+					</div>
+					<div class="col-md-6 transport-type">
+						<img src="img/auto.png" alt="container">
+					</div>
+				</div>
+			</div>
+			<div class="container slide">
+				<div class="row">
+					<div class="col-md-6">
+						<h2>контейнеры</h2>
+						<p>Одним из наиболее экономичных и при этом необыкновенно удобных способов транспортировки железнодорожных грузов являются контейнерные перевозки. Они необыкновенно актуальны для тех случаев, когда необходимо доставить малые объемы грузов, однако это не единственное их преимущество.</p>
+						<div class="more"><a href="#">Подробнее</a></div>
+						<div class="calc"><a href="#">Расчитать</a></div>
+					</div>
+					<div class="col-md-6 transport-type">
+						<img src="img/container-big.png" alt="container">
+					</div>
+				</div>
+			</div>
+			<div class="container slide">
+				<div class="row">
+					<div class="col-md-6">
+						<h2>рефрижератор</h2>
+						<p>Один из самых востребованных видов услуг, это перевозка с температурным режимом. На протяжении многих лет Юником-карго перевозит грузы по всей России. Перевозка скоропортящихся продуктов, медикаментов, продуктов питания и многих других.</p>
+						<div class="more"><a href="#">Подробнее</a></div>
+						<div class="calc"><a href="#">Расчитать</a></div>
+					</div>
+					<div class="col-md-6 transport-type">
+						<img src="img/refrej-big.png" alt="refrej">
+					</div>
 				</div>
 			</div>
 		</div>
 		<div class="slider-conrols clearfix">
 			<div class="container inner-controls">
-				<div class="icon">
-				  <a href="#"><img src="img/planer.png" height="25" width="54" alt="" /></a>
+				<div class="icon my-controll">
+				  <img src="img/planer.png" height="25" width="54" alt="" />
 				  <img class="shadow" src="img/shadow.png" height="15" width="87" alt="">
 				  <span>Авиаперевозки</span>
 				</div>
-				<div class="icon">
-				  <a href="#"><img src="img/train-ico.png" height="35" width="35" alt="" /></a>
+				<div class="icon my-controll">
+				  <img src="img/train-ico.png" height="35" width="35" alt="" />
 				  <img class="shadow" src="img/shadow.png" height="15" width="87" alt="">
 				  <span>Ж/Д Перевозки</span>
 				</div>
-				<div class="icon">
-				  <a href="#"><img src="img/car.png" height="34" width="29" alt="" /></a>
+				<div class="icon my-controll">
+				  <img src="img/car.png" height="34" width="29" alt="" />
 				  <img class="shadow" src="img/shadow.png" height="15" width="87" alt="">
 				  <span>Автоперевозки</span>
 				</div>
 				
-				<div class="icon">
-				  <a href="#"><img src="img/container.png" height="36" width="34" alt="" /></a>
+				<div class="icon my-controll">
+				  <img src="img/container.png" height="36" width="34" alt="" />
 				  <img class="shadow" src="img/shadow.png" height="15" width="87" alt="">
 				  <span>Контейнеры</span>
 				</div>
-				<div class="icon">
-				  <a href="#"><img src="img/refre.png" height="31" width="38" alt="" /></a>
+				<div class="icon my-controll">
+				  <img src="img/refre.png" height="31" width="38" alt="" />
 				  <img class="shadow" src="img/shadow.png" height="15" width="87" alt="">
 				  <span>Рефрижераторы</span>
 				</div>

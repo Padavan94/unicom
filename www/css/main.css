@@ -238,6 +238,8 @@ header .header-navbar {
       color: #fff; }
   .slider-main-wrapper img {
     margin-top: 147px; }
+  .slider-main-wrapper .owl-item:nth-child(3) img {
+    margin-top: 70px; }
   .slider-main-wrapper .slider-conrols {
     height: auto;
     border-top: 3px solid #d2d2d2; }
@@ -266,6 +268,7 @@ header .header-navbar {
       width: 70px;
       height: 70px;
       border-radius: 50%;
+      cursor: pointer;
       background-color: #ec6f2b;
       background-image: -webkit-linear-gradient(bottom right, #ec6f2b 50%, #fb8a4c 50%);
       background-image: linear-gradient(to top left,#ec6f2b 50%, #fb8a4c 50%);
@@ -319,6 +322,10 @@ header .header-navbar {
         top: 75px;
         opacity: .7;
         left: -8px; }
+    .slider-main-wrapper .inner-controls .active {
+      background-color: #fb8a4c;
+      background-image: -webkit-linear-gradient(bottom right, #fb8a4c 50%, #ec6f2b 50%);
+      background-image: linear-gradient(to top left,#fb8a4c 50%, #ec6f2b 50%); }
 
 .left-row {
   background-image: url("../../img/map.png");
@@ -409,28 +416,31 @@ header .header-navbar {
   .contact-container .for-print {
     display: inline-block;
     list-style-image: url("../../img/print-mark.png");
-    margin-top: 7px; }
+    margin-top: 7px;
+    text-align: right; }
     .contact-container .for-print a {
       color: #024f9c;
       text-decoration: underline; }
-  .contact-container .contact-info h1, .contact-container .contact-info h2 {
+    .contact-container .for-print li {
+      padding-left: 0px; }
+  .contact-container .contact-info h1, .contact-container .contact-info h2, .contact-container .contact-info2 h1, .contact-container .contact-info2 h2 {
     font-size: 24px;
     color: #024f9c;
     display: block;
     margin-top: 30px; }
-  .contact-container .contact-info h2 {
+  .contact-container .contact-info h2, .contact-container .contact-info2 h2 {
     margin-top: 0; }
-  .contact-container .contact-info span {
+  .contact-container .contact-info span, .contact-container .contact-info2 span {
     display: block; }
-  .contact-container .contact-info ul {
+  .contact-container .contact-info ul, .contact-container .contact-info2 ul {
     list-style-type: none;
     padding-left: 0;
     margin-top: 30px; }
-  .contact-container .contact-info strong {
+  .contact-container .contact-info strong, .contact-container .contact-info2 strong {
     color: #024f9c; }
-  .contact-container .contact-info a {
+  .contact-container .contact-info a, .contact-container .contact-info2 a {
     color: #595959; }
-    .contact-container .contact-info a i {
+    .contact-container .contact-info a i, .contact-container .contact-info2 a i {
       color: #024f9c;
       margin-right: 5px; }
   .contact-container #first-map, .contact-container #second-map, .contact-container #third-map {

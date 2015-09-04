@@ -12,6 +12,8 @@
 	<link rel="stylesheet" href="libs/datepicker/pickmeup.css">
 	<link rel="stylesheet" href="libs/datepicker/demo.css">
 	<link rel="stylesheet" href="libs/sidebarleft/mbExtruder.css">
+	<link rel="stylesheet" href="libs/owl-carousel/owl.carousel.css">
+	<link rel="stylesheet" href="libs/owl-carousel/owl.theme.css">
 	<link rel="stylesheet" href="css/checkbox-upg.css">
 	<link rel="stylesheet" href="css/main.css" />
 	<link rel="stylesheet" href="css/media.css" />
