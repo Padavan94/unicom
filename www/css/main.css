@@ -28,6 +28,8 @@ header .top-small-line {
   height: 4px;
   background-image: url("../img/top-line.png");
   background-repeat: repeat-x; }
+header .navbar {
+  margin-bottom: 0; }
 header .my-navbar-toggle {
   margin-top: 40px;
   border: 2px solid #024f9c;
@@ -99,7 +101,7 @@ header .button-header-dd {
     color: #024f9c;
     background-color: #fff; }
 header .third-col2 {
-  padding-top: 52px; }
+  padding-top: 30px; }
   header .third-col2 span {
     font-size: 18px;
     font-weight: bold;
@@ -209,7 +211,7 @@ header .header-navbar {
     font-size: 60px;
     font-weight: bold;
     text-transform: uppercase;
-    margin: 125px 0 12px 0; }
+    margin: 50px 0 12px 0; }
   .slider-main-wrapper p {
     text-indent: 0;
     margin-bottom: 34px; }
@@ -237,9 +239,7 @@ header .header-navbar {
     .slider-main-wrapper .more a {
       color: #fff; }
   .slider-main-wrapper img {
-    margin-top: 147px; }
-  .slider-main-wrapper .owl-item:nth-child(3) img {
-    margin-top: 70px; }
+    margin-top: 75px; }
   .slider-main-wrapper .slider-conrols {
     height: auto;
     border-top: 3px solid #d2d2d2; }
@@ -322,10 +322,6 @@ header .header-navbar {
         top: 75px;
         opacity: .7;
         left: -8px; }
-    .slider-main-wrapper .inner-controls .active {
-      background-color: #fb8a4c;
-      background-image: -webkit-linear-gradient(bottom right, #fb8a4c 50%, #ec6f2b 50%);
-      background-image: linear-gradient(to top left,#fb8a4c 50%, #ec6f2b 50%); }
 
 .left-row {
   background-image: url("../../img/map.png");
@@ -416,31 +412,28 @@ header .header-navbar {
   .contact-container .for-print {
     display: inline-block;
     list-style-image: url("../../img/print-mark.png");
-    margin-top: 7px;
-    text-align: right; }
+    margin-top: 7px; }
     .contact-container .for-print a {
       color: #024f9c;
       text-decoration: underline; }
-    .contact-container .for-print li {
-      padding-left: 0px; }
-  .contact-container .contact-info h1, .contact-container .contact-info h2, .contact-container .contact-info2 h1, .contact-container .contact-info2 h2 {
+  .contact-container .contact-info h1, .contact-container .contact-info h2 {
     font-size: 24px;
     color: #024f9c;
     display: block;
     margin-top: 30px; }
-  .contact-container .contact-info h2, .contact-container .contact-info2 h2 {
+  .contact-container .contact-info h2 {
     margin-top: 0; }
-  .contact-container .contact-info span, .contact-container .contact-info2 span {
+  .contact-container .contact-info span {
     display: block; }
-  .contact-container .contact-info ul, .contact-container .contact-info2 ul {
+  .contact-container .contact-info ul {
     list-style-type: none;
     padding-left: 0;
     margin-top: 30px; }
-  .contact-container .contact-info strong, .contact-container .contact-info2 strong {
+  .contact-container .contact-info strong {
     color: #024f9c; }
-  .contact-container .contact-info a, .contact-container .contact-info2 a {
+  .contact-container .contact-info a {
     color: #595959; }
-    .contact-container .contact-info a i, .contact-container .contact-info2 a i {
+    .contact-container .contact-info a i {
       color: #024f9c;
       margin-right: 5px; }
   .contact-container #first-map, .contact-container #second-map, .contact-container #third-map {
@@ -907,7 +900,9 @@ footer {
       line-height: 22px;
       margin-left: 23px; }
       footer .site-map-bottom ul:first-child {
-        list-style-type: none; }
+        list-style-type: none;
+        padding-left: 0;
+        margin-left: 0; }
       footer .site-map-bottom ul:last-child {
         list-style-type: none; }
         footer .site-map-bottom ul:last-child a {
