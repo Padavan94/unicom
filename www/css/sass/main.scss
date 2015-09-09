@@ -414,6 +414,10 @@ header{
 			    left: -8px;
 			}
 		}
+		.active{
+			@include linear-gradient(to top left, #fb8a4c 50%, #ec6f2b 50%);
+			
+		}
 	}
 }
 .left-row{
@@ -619,13 +623,14 @@ header{
 	}
 }
 //CALCULATOR**********************************************
-.calculator-container, .auto-container, .plain-container, .container-transportation,.refrej-transportation,.news-container{
+.calculator-container, .auto-container, .plain-container, .container-transportation,.refrej-transportation,.news-container, .tarif-container{
 	padding-top: 20px;
 	.left-sidebar{
 		color: #0a112c;
 		width: 235px;
 		border-right: 1px solid #eaeaea;
 		padding-right: 0;
+		margin-bottom: 20px;
 		a{
 			color: #0a112c;
 			&:hover{
@@ -699,6 +704,9 @@ header{
 			.stock-text{
 				border-bottom: 1px solid #cbcbcb;
 				padding: 7px 0 14px 0;
+				&:last-child{
+					border: none;
+				}
 				p{
 					text-indent: 0;
 				}
@@ -741,6 +749,9 @@ header{
 			font-size: 24px;
 			color: $text_color_blue;
 			min-height: 27px 0 24px 0;
+		}
+		h2{
+
 		}
 		.calc-form{
 			width: 100%;
@@ -899,7 +910,7 @@ header{
 		}
 	}
 	//CAR-TRANSPORTATION**********************************************
-	.right-car-transp, .right-plain-transp, .right-container-transp,.right-refrej-transp{
+	.right-car-transp, .right-plain-transp,.right-tarifs-box, .right-container-transp,.right-refrej-transp{
 		padding-bottom: 0;
 		.main-img-cols{
 			margin-top: 31px;
@@ -908,7 +919,7 @@ header{
 			}
 			.col-box{
 				@include radial-gradient(#fdfdfd, #dadada);
-				height: 120px;
+				height: 133px;
 				padding-top: 20px;
 				text-align: center;
 				.for-height{
@@ -1012,6 +1023,13 @@ header{
 					margin-bottom: 0;
 				}
 			}
+		}
+	}
+	//TARIFS
+	.right-tarifs-box{
+		h2{
+			margin: 0;
+			font-size: 24px;
 		}
 	}
 	//NEWS ********************************************************
@@ -1196,4 +1214,3 @@ footer{
 		overflow: auto !important;
 	}
 }
-	

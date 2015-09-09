@@ -1,4 +1,5 @@
 $(document).ready(function() {
+	$(".my-controll:first-child").addClass('active');
 	checkKastomize();
 	if(window.innerWidth <768) {
 		$("#leftmenu").buildMbExtruder({
@@ -18,14 +19,25 @@ $(document).ready(function() {
 	    slideSpeed : 1000,
 	    paginationSpeed : 1000,
 	    singleItem:true,
-	    autoPlay: 5000,
-	    pagination : false
+	    pagination : false,
+	    autoPlay: 3000
 	  });
 
 	var owl = $(".owl-carousel").data('owlCarousel');
 	$(".my-controll").click(function() {
-		owl.goTo($(this).index());
+		var self1 = $(this);
+		owl.goTo(self1.index());
+		$(this).addClass('active');
+		$(".slider-main-wrapper .inner-controls .icon").each(function(index) {
+		});
 	});
+	setInterval(function(){
+		var owl2 = $(".owl-carousel");
+		var current = owl.currentItem;
+		$(".my-controll").removeClass('active');
+		$(".my-controll").eq(current).addClass('active');
+
+	}, 1500);
 });
 
 function checkKastomize(){
@@ -40,9 +52,8 @@ function checkKastomize(){
 		}
 	});
 }
-setInterval("slider()",3000);
-var slider = function(){
-	var i=0;
-	$(".icon").eq(i).addClass('active');
-	return i+=1;
-}
+
+/*------------------------------
+	add active
+------------------------------*/
+
